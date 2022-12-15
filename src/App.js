@@ -16,7 +16,7 @@ const App = () => (
       <div style={{ width: '20%', padding: '20px' }}>
         <NavBar />
       </div>
-      <div style={{ width: '80%', padding: '20px' }}>
+      {/* <div style={{ width: '80%', padding: '20px' }}> */}
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -24,7 +24,7 @@ const App = () => (
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={Contact} />
       </Routes>
-       </div>
+       {/* </div> */}
     </div>
     
     <Footer />
