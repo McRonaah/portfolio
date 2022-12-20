@@ -17,3 +17,17 @@
     height: 60px;
     border-radius: 60%;
   }
+
+  .skills h2 {
+    text-align: center;
+  }
+  
+  .skills ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skills li {
+    width: 150px;
+    margin: 10px;
+  }

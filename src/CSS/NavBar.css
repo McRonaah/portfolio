@@ -1,8 +1,9 @@
 .nav{
     width: 80%;
     height: 100%;
-    color: #fff;
+    color: #bfbfbf;
     padding: 20px;
+    background-color: #bfbfbf;
 }
 .nav a {
     color: rgb(14, 133, 19);
