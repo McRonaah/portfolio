@@ -7,7 +7,7 @@ function Footer () {
   return (
       <div className="footer">
           <div className="section1">
-              <h4>Contact Us</h4>
+              <h4>Contact me</h4>
           <p><FaPhoneSquareAlt />
                   +254702233145</p>
                   <p><FaRegEnvelope />
