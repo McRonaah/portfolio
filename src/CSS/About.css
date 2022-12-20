@@ -4,7 +4,6 @@
 .about-container {
     display: flex;
     align-items: center;
-    /* background-color: #d9d9d9 ; */
   }
 
   .about-container ul {
@@ -57,12 +56,35 @@
     flex-direction: column;
     align-items: center;
     padding: 10px;
-    /* background-color: #d9d9d9 ; */
   }
 .contact{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
-    /* background-color: #d9d9d9 ; */
+    padding: 20px;
+}
+
+
+.contact p {
+  display: flex;
+  justify-items: auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+
+.about-container li {
+  width: 250px;
+  margin: 20px;
+}
+
+.icon{
+  font-size: 32px;
+  color: black;
+  transition: color 0.2s ease-in-out;
+}
+
+.icon:hover {
+  color: blue;
+  transform: scale(1.2);
 }

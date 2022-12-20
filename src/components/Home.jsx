@@ -16,19 +16,15 @@ function Home() {
     <div className="skills">
       <h2>Skills</h2>
       <ul>
+        <li>GIT and GitBash</li>
         <li>JavaScript</li>
         <li>React</li>
-        <li>Node.js</li>
+        <li>SQL</li>
         <li>Ruby</li>
         <li>Ruby on Rails</li>
         <li>HTML</li>
         <li>CSS</li>
       </ul>
-    </div>
-  
-    <div className="resume">
-      <h2>Resume</h2>
-      <a href="/path/to/resume.pdf">Download PDF</a>
     </div>
   </div>
 );

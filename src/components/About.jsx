@@ -1,6 +1,10 @@
-import React from 'react'
+import React from 'react';
 import '../CSS/About.css'
 import avatar from '../images/avatar.png'; 
+import {  FaLinkedin, FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
+import { Link } from 'react-router-dom';
+
+
 
 function About() {
   return (
@@ -44,12 +48,13 @@ function About() {
   </div>
   <div className="contact">
       <h2>Lets Connect</h2>
-      <ul>
-        <li>Email: <a href="mailto:example@gmail.com">example@gmail.com</a></li>
-        <li>Phone: (123) 456-7890</li>
-        <li>LinkedIn: <a href="https://linkedin.com/in/example">https://linkedin.com/in/example</a></li>
-        <li>GitHub: <a href="https://github.com/example">https://github.com/example</a></li>
-      </ul>
+        <Link to="https://twitter.com/Ronaah_254/" ><p className='icon'><FaLinkedin /></p></Link>
+        <Link to="https://twitter.com/Ronaah_254/" ><p className='icon'><FaTwitter /></p></Link>
+        <Link to="https://twitter.com/Ronaah_254/" ><p className='icon'><FaFacebook /></p></Link>
+        <Link to="https://twitter.com/Ronaah_254/" ><p className='icon'><FaInstagram /></p></Link>
+        
+
+      
     </div>
     
   </div>

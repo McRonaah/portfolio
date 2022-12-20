@@ -7,7 +7,7 @@ function Services() {
       <div className="services">
         <div className="service">
           <h2>Web Development</h2>
-          <p>I offer full-stack web development services using technologies such as React, Node.js, Express, and MongoDB. I can help you build custom web applications from scratch or improve and maintain existing ones.</p>
+          <p>I offer full-stack web development services using technologies such as React and Ruby on Rails. I can help you build custom web applications from scratch or improve and maintain existing ones.</p>
         </div>
         <div className="service">
           <h2>Code Review and Mentorship</h2>
