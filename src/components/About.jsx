@@ -2,9 +2,7 @@ import React from 'react';
 import '../CSS/About.css'
 import avatar from '../images/avatar.png'; 
 import {  FaLinkedin, FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
-import { Link } from 'react-router-dom';
-
-
+// import { Link } from 'react-router-dom';
 
 function About() {
   return (
@@ -48,13 +46,16 @@ function About() {
   </div>
   <div className="contact">
       <h2>Lets Connect</h2>
-        <Link to="https://twitter.com/Ronaah_254/" ><p className='icon'><FaLinkedin /></p></Link>
-        <Link to="https://twitter.com/Ronaah_254/" ><p className='icon'><FaTwitter /></p></Link>
-        <Link to="https://twitter.com/Ronaah_254/" ><p className='icon'><FaFacebook /></p></Link>
-        <Link to="https://twitter.com/Ronaah_254/" ><p className='icon'><FaInstagram /></p></Link>
-        
-
-      
+      <div className='col'>
+        <div className='social'>
+          <a href="https://www.linkedin.com/in/ronald-kipchirchir-034983246/" target="_blank" without rel="noreferrer" ><p className='icon'><FaLinkedin /></p></a>
+          <a href="https://twitter.com/Ronaah_254/" target="_blank" without rel="noreferrer"><p className='icon'><FaTwitter /></p></a>
+        </div>
+        <div className='social'>
+          <a href="https://www.facebook.com/ronaah254/" target="_blank" without rel="noreferrer"><p className='icon'><FaFacebook /></p></a>
+          <a href="https://www.instagram.com/ronaah_254_africa/" target="_blank" without rel="noreferrer"><p className='icon'><FaInstagram /></p></a>
+        </div>
+      </div>
     </div>
     
   </div>

@@ -1,5 +1,10 @@
 .hero{
     background-color: #d9d9d9 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 30px;
 }
 .about-container {
     display: flex;
@@ -57,29 +62,28 @@
     align-items: center;
     padding: 10px;
   }
-.contact{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-}
-
-
-.contact p {
-  display: flex;
-  justify-items: auto;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
 
 .about-container li {
   width: 250px;
   margin: 20px;
 }
+.contact h2 {
+  align-items: center;
+
+}
+
+.social{
+  display: flex;
+  /* margin: 0 auto; */
+}
+
+.social p{
+  margin-right: 50px;
+  /* padding-left: 10px; */
+}
 
 .icon{
-  font-size: 32px;
+  font-size: 50px;
   color: black;
   transition: color 0.2s ease-in-out;
 }
