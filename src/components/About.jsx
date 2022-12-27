@@ -1,14 +1,14 @@
 import React from 'react';
 import '../CSS/About.css'
-import avatar from '../images/avatar.png'; 
+import resume from '../Docs/Ronald_Kipchirchir_CV.pdf'
+import avatar1 from '../images/avatar1.png';
 import {  FaLinkedin, FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
-// import { Link } from 'react-router-dom';
 
 function About() {
   return (
     <div className='hero'>
     <div className="about-container">
-    <img src={avatar} alt="Avatar" className="avatar" />
+    <img src={avatar1} alt="Avatar" className="avatar" />
     <div className="info">
       <ul>
         <li>
@@ -24,7 +24,7 @@ function About() {
           <strong>City:</strong> <span>Nairobi, Kenya</span>
         </li>
         <li>
-          <strong>Website:</strong> <span></span>
+          <strong>Website:</strong> <span><a href="https://github.com/McRonaah">Github Profile</a></span>
         </li>
         <li>
           <strong>Field:</strong> <span>Software Engineering</span>
@@ -42,7 +42,7 @@ function About() {
   </div>
   <div className="resume">
       <h2>Resume</h2>
-      <a href="/path/to/resume.pdf">Download PDF</a>
+      <a href={resume} target="_blank" without rel="noreferrer">Download PDF</a>
   </div>
   <div className="contact">
       <h2>Lets Connect</h2>
@@ -63,4 +63,4 @@ function About() {
   )
 }
 
-export default About
+export default About;
