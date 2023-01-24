@@ -24,7 +24,7 @@ function About() {
           <strong>City:</strong> <span>Nairobi, Kenya</span>
         </li>
         <li>
-          <strong>Website:</strong> <span><a href="https://github.com/McRonaah">Github Profile</a></span>
+          <strong>Website:</strong> <span><a href="https://github.com/McRonaah"  target="_blank" without rel="noreferrer">Github Profile</a></span>
         </li>
         <li>
           <strong>Field:</strong> <span>Software Engineering</span>
