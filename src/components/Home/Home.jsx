@@ -1,32 +1,33 @@
-import React from 'react'
-import avatar from '../../images/avatar.jpeg'; 
+import React from 'react';
+import background from '../../images/background.jpg';
+
+import Skills from "./Skills"
+import Interest from "./Interest"
+
 
 function Home() {
   return (
-    <div >
-    <img src={avatar} alt="Avatar" className="avatar" />
-    <h1 class="fon">Hello, I am a Software Developer</h1>
-    <p>
-      I am a quality-oriented, open-minded Software Developer passionate about learning and exploring new things with excellent understanding of organization operations and demands. I have the ability to get on with people easily, adapting to new cultures and environments easily, and I am confident with strong leadership skills. I have consistently been recognized for code coaching, helping others understand and improve their performance, and I have strong debugging skills in solving technical issues.
-    </p>
-    <p>
-      During my free time, I do blog writing and exploring more about technical content and articles.
-    </p>
-    <div className="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>GIT and GitBash</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>SQL</li>
-        <li>Ruby</li>
-        <li>Ruby on Rails</li>
-        <li>HTML</li>
-        <li>CSS</li>
-      </ul>
+    <div>
+      <div className="min-h-screen bg-cover bg-center flex justify-center backdrop-blur-lg " style={{ backgroundImage: `url(${background})` }}>
+        <br />
+        <div className=" text-center">
+          <br />
+          <br />
+          <br />
+          <h2 className="text-xl text-blue-300">Tech Lead & Software Engineer</h2>
+          <h1 className="text-6xl font-bold">Ronald Kipchirchir</h1>
+          <h3 className="mt-4 text-lg text-green-500">Welcome to my personal website</h3>
+          <div className="mt-4 text-yellow-500">
+          <div className="mt-4">
+            <button className="px-4 py-2 font-bold text-black bg-white rounded">Hire Me</button>
+          </div>
+        </div>
+      </div>
+      </div>
+      <Skills />
+      <Interest />
     </div>
-  </div>
-);
+  );
 }
 
 export default Home;
