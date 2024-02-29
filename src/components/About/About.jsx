@@ -3,6 +3,8 @@ import resume from '../../Docs/Ronald_Kipchirchir_CV.pdf'
 import avatar1 from '../../images/avatar1.webp';
 import {  FaLinkedin, FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
 
+import Education from "./Education.jsx";
+
 function About() {
   return (
     <div className='hero'>
@@ -56,7 +58,7 @@ function About() {
         </div>
       </div>
     </div>
-    
+    <Education />
   </div>
   
   )

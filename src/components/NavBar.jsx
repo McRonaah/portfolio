@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import LogoTransparent from "../images/logo1.jpeg";
-import LogoScroll from "../images/logo1.jpeg";
+import LogoTransparent from "../images/navlogo.jpeg";
+import LogoScroll from "../images/navlogo.jpeg";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -37,7 +37,8 @@ const Navbar = () => {
           <img
             src={isScrolled ? LogoScroll : LogoTransparent}
             alt="logo"
-            className="w-16 md:w-32 cursor-pointer"
+            className=" md:w-32 cursor-pointer"
+            style={{ width: '50px', height: '50px' }} // resize the logo
           />
         </a>
       </div>
