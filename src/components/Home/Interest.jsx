@@ -26,7 +26,8 @@ const interests = [
 
 const Interest = () => {
   return (
-    <div className="flex flex-col border border-gray-300 rounded p-8 my-2">
+    <div className="flex flex-col border border-gray-300 rounded p-8 my-2 mx-8">
+      <h2 className="font-black mb-3 text-center">Hobbies & Interest</h2>
       {interests.map((interest, index) => (
         <div key={index} style={{ display: 'flex', flexDirection: index % 2 === 0 ? 'row' : 'row-reverse' }}>
           <div style={{ flex: '50%', textAlign: 'center' }}>

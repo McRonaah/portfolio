@@ -8,12 +8,8 @@ import Interest from "./Interest"
 function Home() {
   return (
     <div>
-      <div className="min-h-screen bg-cover bg-center flex justify-center backdrop-blur-lg " style={{ backgroundImage: `url(${background})` }}>
-        <br />
+      <div className="min-h-screen bg-cover bg-center flex justify-center backdrop-blur-lg mt-14 " style={{ backgroundImage: `url(${background})` }}>
         <div className=" text-center">
-          <br />
-          <br />
-          <br />
           <h2 className="text-xl text-blue-300">Tech Lead & Software Engineer</h2>
           <h1 className="text-6xl font-bold">Ronald Kipchirchir</h1>
           <h3 className="mt-4 text-lg text-green-500">Welcome to my personal website</h3>
