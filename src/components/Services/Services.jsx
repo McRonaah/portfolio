@@ -1,11 +1,17 @@
-import React from 'react'
+import React from 'react';
+
+import Featured from './Featured';
 
 const Services = () => {
   return (
     <div>
-      <h1>Coming Soon........,</h1>
+      <div>
+        <h1>Services</h1>
+        <p>page Coming Soon.....,,,,,</p>
+      </div>
+      <Featured />
     </div>
   )
 }
 
-export default Services
+export default Services;

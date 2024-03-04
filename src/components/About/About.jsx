@@ -4,6 +4,7 @@ import avatar1 from '../../images/avatar1.webp';
 import {  FaLinkedin, FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
 
 import Education from "./Education.jsx";
+import Experience from './Experience.jsx';
 
 function About() {
   return (
@@ -59,6 +60,7 @@ function About() {
       </div>
     </div>
     <Education />
+    <Experience />
   </div>
   
   )

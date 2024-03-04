@@ -1,9 +1,15 @@
 import React from 'react';
 
+import Certification from './Certification';
+
 const Portfolio = () => {
   return (
     <div>
-      <h1>Coming Soon........,</h1>
+      <div>
+        <h1>Portfolio</h1>
+        <p>Page Coming Soon.....,,,,,</p>
+      </div>
+      <Certification />
     </div>
   )
 }
