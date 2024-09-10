@@ -1,15 +1,19 @@
 import React from 'react';
-import Certification from "./Certification"
+import Certification from "./Certification";
+
+import bg from "../../images/images1/background-images/diego-ph-fIq0tET6llw-unsplash.jpg";
+import yumdrop from "../../images/screenshots/yumdrop.png";
+import railway from "../../images/screenshots/railway.png";
 
 const Portfolio = () => {
   return (
-    <div className="bg-cover bg-no-repeat flex flex-col p-5 rounded-[20px] bg-[#1abc9c]" style={{ backgroundImage: 'url(../../../../../assets/images/background-images/diego-ph-fIq0tET6llw-unsplash.jpg)' }}>
+    <div className="bg-cover bg-no-repeat flex flex-col p-5 rounded-[20px] bg-[#1abc9c]" style={{ backgroundImage: `url(${bg})` }}>
       <h2 className="text-center justify-center mt-0">Projects</h2>
       <div className="flex flex-wrap justify-between">
         
         {/* Project 1 */}
         <div className="w-[45%] mb-5 p-2.5 shadow-[0_0_5px_rgba(0,0,0,0.2)] rounded-[5px]">
-          <img src="../../../../../assets/images/screenshots/yumdrop.png" alt="Project 2 Logo" className="max-w-[50%] h-auto text-lg items-center justify-center" />
+          <img src={yumdrop} alt="Project 2 Logo" className="max-w-[50%] h-auto text-lg items-center justify-center" />
           <h4 className="text-xl mt-2.5 mb-1.5">YumDrop-food delivery app.</h4>
           <p className="text-lg mt-1.5 mb-1.5">YumDrop-The project is a food delivery application developed using ReactJs and Firebase.</p>
           <p className="text-lg mt-1.5 mb-1.5">One of my primary objectives was to integrate Google authentication, allowing users to authenticate with a single click on the avatar.</p>
@@ -36,7 +40,7 @@ const Portfolio = () => {
         </div>
 
         <div className="w-[45%] mb-5 p-2.5 shadow-[0_0_5px_rgba(0,0,0,0.2)] rounded-[5px]">
-          <img src="https://github.com/Gracelaura/kindergarten-management-system-frontend/blob/main/src/App/components/images/home.png?raw=true" alt="Project 1 Logo" className="max-w-[50%] h-auto text-lg items-center justify-center" />
+          <img src={railway} alt="Project 1 Logo" className="max-w-[50%] h-auto text-lg items-center justify-center" />
           <h4 className="text-xl mt-2.5 mb-1.5">School Management System</h4>
           <p className="text-lg mt-1.5 mb-1.5">As a contributor to this project, I worked on developing a full-stack application for managing a kindergarten.</p>
           <p className="text-lg mt-1.5 mb-1.5">The project consists of two main dashboards: an admin dashboard and a parent dashboard.</p>
